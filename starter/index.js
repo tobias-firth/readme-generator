@@ -19,9 +19,9 @@ inquirer
       name: 'install',
     },
     {
-        type: 'input',
-        message: 'Please provide some guidence for those wishing to contribute',
-        name: 'contribution',
+      type: 'input',
+      message: 'Please provide some guidence for those wishing to contribute',
+      name: 'contribution',
     },
     {
       type: 'list',
@@ -51,7 +51,7 @@ inquirer
 `
 ![${response.license}](./assets/${response.license}.png)
 
-#${response.title}
+# ${response.title}
 
 ## Table of Contents 
 * [Description](#Description)
@@ -62,30 +62,28 @@ inquirer
 * [Tests](#Tests)
 * [Questions](#Questions)
 
-##Description
+## Description
 ${response.description}
-##Installation
+## Installation
 ~~~bash
 npm i ${response.install}
 ~~~
-##Usage 
+## Usage 
 ~~~javascript
   const ${response.install} = require("${response.install}")
 ~~~
 ##License 
 This Project is covered under the [${response.license}](https://choosealicense.com/licenses/${response.license}) licence. 
 
-##Contributing 
+## Contributing 
 ${response.contribution}
 
-##Tests
+## Tests
 ${response.tests}
 
-##Questions
+## Questions
 Please see my github profile: [${response.github}](https://github.com/${response.github})
 Please send any questions you have to [${response.email}](mailto:${response.email})
-`
-
-;
+`;
 
 fs.writeFile("readme.md",readmeContent,(err) => err ? console.log("err") : console.log("success"))})
