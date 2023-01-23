@@ -64,6 +64,7 @@ inquirer
 
 ## Description
 ${response.description}
+
 ## Installation
 ~~~bash
 npm i ${response.install}
@@ -72,7 +73,7 @@ npm i ${response.install}
 ~~~javascript
   const ${response.install} = require("${response.install}")
 ~~~
-##License 
+## License 
 This Project is covered under the [${response.license}](https://choosealicense.com/licenses/${response.license}) licence. 
 
 ## Contributing 
