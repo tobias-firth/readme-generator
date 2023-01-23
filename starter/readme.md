@@ -1,3 +1,4 @@
+
 ![mit](./assets/mit.png)
 
 # ReadMe Generator
@@ -12,7 +13,7 @@
 * [Questions](#Questions)
 
 ## Description
-Using this, the user can generate a fully formatted readme with the information that they provide.
+This project allows the user to enter key information about a project, and it will be formatted into a readme
 
 ## Installation
 ~~~bash
@@ -29,7 +30,7 @@ This Project is covered under the [mit](https://choosealicense.com/licenses/mit)
 Please use a seperate branch
 
 ## Tests
-Please test and let me know about any issues in GitHub
+Please test and let me know if there are any issues on github
 
 ## Questions
 Please see my github profile: [tobias-firth](https://github.com/tobias-firth)
